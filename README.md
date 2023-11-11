@@ -4,9 +4,9 @@ Hack n Lead Hackathon
 ## The Team
 Software Development Expert: Anja Grafenauer 
 
-Business Development Expert: Vilma Ahumada  
-
 UX Designer: Rebeca Perez
+
+Business Development Expert: Vilma Ahumada  
 
 Data Scientist: Holly Capelo
 
