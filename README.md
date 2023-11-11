@@ -1,5 +1,5 @@
 # sss
-Hack n Lead Hackathon
+Hack n Lead Hackathon SDX Challenge Team 1
 
 ## The Team
 Software Development Expert: Anja Grafenauer 
