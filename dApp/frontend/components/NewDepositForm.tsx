@@ -16,6 +16,7 @@ import { upsertDeposit } from "../helpers/api";
 import { DSVContract } from "../helpers/contract";
 import { DepositIntent, computeDepositIntentHash } from "../helpers/types";
 import { DoNotLeave } from "./DoNotLeave";
+import { CharityDonation } from "./CharityDonation";
 
 type Props = {
   connectedAddress: string;
@@ -139,9 +140,10 @@ export const NewDepositForm = (props: Props) => {
             }
           />
         </FormControl>
-        <Button isLoading={isLoading} type="submit">
+        <CharityDonation />
+        {/* <Button isLoading={isLoading} type="submit">
           Submit Deposit Intent
-        </Button>
+        </Button> */}
         {isLoading && <DoNotLeave />}
       </Stack>
     </form>
