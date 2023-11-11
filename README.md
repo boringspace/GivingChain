@@ -12,7 +12,7 @@ Data Scientist: Holly Capelo
 
 Project Management: Vanessa Wang
 
-<!--- [alt text](https://github.com/Vanessayingwang/sss/foto-46.jpg)-->
+<!-- ![alt text](foto-46.jpg) -->
 
 ## Project Introduction 
 Stuff
