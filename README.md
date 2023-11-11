@@ -15,7 +15,9 @@ Project Management: Vanessa Wang
 <!-- ![alt text](foto-46.jpg) -->
 
 ## Project Introduction 
-SDX is poised to revolutionize the B2C landscape by leveraging cutting-edge technology. Our approach integrates the Web3 DAO widget, seamlessly empowering individuals to autonomously undergo KYC processes via MetaMask and Ethereum. The issuance of a unique NFT ensures verifiable compliance, fostering a self-sovereign identity paradigm.
+Our Hackathon proposition for SDX is to provide an innovative solution set to redefine the B2C landscape. We aim not only to transform operational efficiency but also to embody a commitment to innovation, privacy, and positive social change.
+
+Our approach integrates the Web3 DAO widget, seamlessly empowering individuals to autonomously undergo KYC processes via MetaMask and Ethereum. The issuance of a unique NFT ensures verifiable compliance, fostering a self-sovereign identity paradigm.
 
 This not only significantly curtails costs associated with KYC but also augments user privacy. The infusion of Web3 solutions elevates data protection, diminishing the reliance on conventional data management solutions. The ripple effect extends beyond cost reduction, encompassing enhanced security and reduced risks of customer data breaches.
 
