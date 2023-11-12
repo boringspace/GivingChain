@@ -7,6 +7,7 @@ import {
   Stack,
   StackDivider,
   useToast,
+  useDisclosure,
 } from "@chakra-ui/react";
 import { ethers } from "ethers";
 import { useRouter } from "next/router";
@@ -31,6 +32,7 @@ export const NewDepositForm = (props: Props) => {
   const [tokenAddress, setTokenAddress] = useState<string>("");
   const [senderAddress, setSenderAddress] = useState<string>("");
   const [amount, setAmount] = useState<string>("");
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
   const onSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
@@ -140,10 +142,10 @@ export const NewDepositForm = (props: Props) => {
             }
           />
         </FormControl>
-        <CharityDonation />
-        {/* <Button isLoading={isLoading} type="submit">
+        <CharityDonation isOpen={isOpen} onOpen={onOpen} onClose={onClose} /* tokenAddress={tokenAddress} */ connectedAddress={connectedAddress} memberId={memberId} />
+        <Button isLoading={isLoading} onClick={onOpen} /* type="submit" */>
           Submit Deposit Intent
-        </Button> */}
+        </Button>
         {isLoading && <DoNotLeave />}
       </Stack>
     </form>
