@@ -3,8 +3,6 @@ Hack n Lead Hackathon SDX Challenge Team 4
 
 Watch Demo Video: https://youtu.be/vOS9lkcpktI
 
-[![Watch Demo Video]](https://youtu.be/vOS9lkcpktI)
-
 ## The Team
 - Software Development Expert: [Anja Grafenauer](http://linkedin.com/in/anja-grafenauer)
 - UX Designer: [Rebeca Perez](http://linkedin.com/in/beci-p-22270b291)
@@ -25,3 +23,19 @@ Unlike traditional donations, charities often face hurdles in accepting contribu
 ## GivingChain Solution
 
 ![pic1](assets/GivingChainSolution.jpg)
+
+## Current Stage of the App Implementation
+
+So far, we have only been able to work on the frontend side of the application to display basic functionality or simple user interaction / interface.
+We have built:
+- A popup modal when a SDX member submits a deposit intent where he can select a charity organization (The Giving Block) and the amount of money he wants to donate. Note that currently, for lack of time and to fulfill demo purposes - a deposit will be triggered to go to the charity organization, which is not ideal. 
+Ideally, donations would be using transfers via the SDX ledger until the charity has reached a threshold, and then the charity would be able to withdraw the funds to the Ethereum blockchain.
+- A Donor settings page (only look / feel): the donor can set automatic donations of a specific amount of money on any transaction, or opt out of donations.
+- A Charity settings page (only look / feel): the charity can set a threshold (to be implemented: once this thresfold of donated funds is reached, the charity can withdraw the funds to the Ethereum blockchain).
+
+## Future Work
+
+- Make sure that donations happen via transfers on the SDX ledger (to optimize costs) & make it dynamic (remove hardcoded addresses).
+- Implement functionality for automatically setting donations on deposits, withdrawals and or transfers (mainly in the frontend).
+- Implement functionality for charities to withdraw funds to the Ethereum blockchain once a threshold is reached.
+
