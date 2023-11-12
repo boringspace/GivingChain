@@ -39,3 +39,8 @@ Ideally, donations would be using transfers via the SDX ledger until the charity
 - Implement functionality for automatically setting donations on deposits, withdrawals and or transfers (mainly in the frontend).
 - Implement functionality for charities to withdraw funds to the Ethereum blockchain once a threshold is reached.
 
+## Local Boot
+
+In order to get booted:
+- first follow the instructions in dApp/contracts/README.md to deploy the contracts.
+- then, follow the instructions in dApp/frontend/README.md to run the frontend.
