@@ -70,6 +70,12 @@ export const Header = () => {
           </Button>
           <Button
             isDisabled={connectedAddress === ""}
+            onClick={() => router.push("/charity")}
+          >
+            Charity
+          </Button>
+          <Button
+            isDisabled={connectedAddress === ""}
             onClick={() => router.push("/balances")}
           >
             My Balances
