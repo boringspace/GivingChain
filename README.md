@@ -17,7 +17,7 @@ Our proposal for SDX is centered around crafting an innovative design for the ap
 <!---
 ![pic1](assets/A-Crypto-Donation-Ecosystem-The-Giving-Block.png)
 --->
-![pic1](assets/ethereum.jpeg)
+![pic1](assets/hackNlead.jpeg)
 
 Cryptocurrencies are increasingly embraced for transactions in today's society, with their applications extending beyond conventional usage. Both commercial and governmental bodies now leverage blockchain technology and cryptocurrency contributions. On donation platforms, alongside traditional methods like credit card details, crypto wallet information is commonly provided.
 
