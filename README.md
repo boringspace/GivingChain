@@ -1,5 +1,5 @@
-# Seamless donate with SDX
-Hack n Lead Hackathon SDX Challenge Team 1
+# GivingChain with SDX
+Hack n Lead Hackathon SDX Challenge Team 4
 
 ## The Team
 - Software Development Expert: [Anja Grafenauer](http://linkedin.com/in/anja-grafenauer)
