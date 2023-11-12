@@ -3,6 +3,8 @@ Hack n Lead Hackathon SDX Challenge Team 4
 
 Watch Demo Video: https://youtu.be/vOS9lkcpktI
 
+[![Watch Demo Video]](https://youtu.be/vOS9lkcpktI)
+
 ## The Team
 - Software Development Expert: [Anja Grafenauer](http://linkedin.com/in/anja-grafenauer)
 - UX Designer: [Rebeca Perez](http://linkedin.com/in/beci-p-22270b291)
