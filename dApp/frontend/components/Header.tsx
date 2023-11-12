@@ -64,6 +64,12 @@ export const Header = () => {
         <ButtonGroup gap="1" alignItems="center" height="50px">
           <Button
             isDisabled={connectedAddress === ""}
+            onClick={() => router.push("/donor")}
+          >
+            Donor
+          </Button>
+          <Button
+            isDisabled={connectedAddress === ""}
             onClick={() => router.push("/balances")}
           >
             My Balances
