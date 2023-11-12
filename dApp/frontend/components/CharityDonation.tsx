@@ -11,6 +11,8 @@ import {
     Box,
     Text,
     useToast,
+    Heading,
+    Center,
     Input
   } from '@chakra-ui/react'
   import Image from 'next/image';
@@ -78,6 +80,10 @@ import {
         );
 
         onClose();
+
+        setTimeout(() => {
+          setLoading(false);
+      }, 5000);
   
         toast({
           title: "Transaction successfully submitted.",
@@ -105,7 +111,9 @@ import {
           position: "top-right",
           isClosable: true,
         });
-        setLoading(false);
+        setTimeout(() => {
+          setLoading(false);
+      }, 5000);
       }
     };
 
@@ -144,13 +152,25 @@ import {
               <button onClick={selectCharity} >
                 <Image src='/../public/TGBLogo.png' alt='The Giving Block Logo' width={200} height={200} style={descriptionCSS}/>
               </button>
-              {openDescription && (
+              {openDescription && !isLoading && (
                 <Box mt={2}>
                   <Text fontSize="sm">
                     The Giving Block is a registered 501(c)3 nonprofit organization headquartered in Washington, D.C. that is transforming philanthropy by providing solutions that make giving crypto tax efficient. The Giving Block equips nonprofits to fundraise cryptocurrencies like Bitcoin, providing education, training and a technical solution. For donors, they built the only cryptocurrency donation platform designed specifically for tax optimization. They have partnered with over 250 nonprofits and raised millions in cryptocurrency. The Giving Block’s goal is to make accepting cryptocurrency donations just as easy as credit card donations.
                     </Text>
                     </Box>
                     )}
+              {isLoading && (
+                <>
+              <Center mt={2}>    
+                <Heading fontSize='2xl'>Wait for it...</Heading>
+                </Center>
+                <Center mt={2}> 
+                <Box >
+                    <img src="https://media.giphy.com/media/H7TsKHN6xAoAy96fJr/giphy.gif" alt="loading" width={400} height={400} />
+                </Box>
+              </Center>
+              </>
+              )}
                
             </ModalBody>
   
