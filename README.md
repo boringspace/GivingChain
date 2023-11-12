@@ -14,9 +14,7 @@ Watch Demo Video: https://youtu.be/vOS9lkcpktI
 
 ## Project Introduction
 Our proposal for SDX is centered around crafting an innovative design for the application interface, facilitating seamless charity donations. Our goal extends beyond enhancing operational efficiency, seeking to embody a commitment to innovation, privacy, and positive social change.
-<!---
-![pic1](assets/A-Crypto-Donation-Ecosystem-The-Giving-Block.png)
---->
+
 ![pic1](assets/hackNlead.jpeg)
 
 Cryptocurrencies are increasingly embraced for transactions in today's society, with their applications extending beyond conventional usage. Both commercial and governmental bodies now leverage blockchain technology and cryptocurrency contributions. On donation platforms, alongside traditional methods like credit card details, crypto wallet information is commonly provided.
@@ -24,6 +22,6 @@ Cryptocurrencies are increasingly embraced for transactions in today's society, 
 Unlike traditional donations, charities often face hurdles in accepting contributions from foreign countries. Cryptocurrencies enable global donations without the drawbacks of high fees, delays, or account blocking risks. The blockchain's transparency facilitates tracking funds to specific recipients, bolstering the credibility of charitable organizations.
 
 
-## Giving Chain Solution
+## GivingChain Solution
 
 ![pic1](assets/GivingChainSolution.jpg)
